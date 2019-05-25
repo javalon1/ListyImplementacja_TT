@@ -9,6 +9,8 @@ public class App
     {
 
         Zadanie.zad1();
+
+        
 //        Box<Integer> box1 = new Box(12);
 //       Box<Float> box2 = new Box(12.32);
   /*      List<Integer>integerList=new ArrayList<>();
