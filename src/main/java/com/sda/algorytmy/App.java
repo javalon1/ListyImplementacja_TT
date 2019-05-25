@@ -8,9 +8,11 @@ public class App
     public static void main( String[] args )
     {
 
-        Zadanie.zad1();
+ //       Zadanie.zad1();
 
-        
+        List<Integer> list = new ArrayList<>();
+     //   list.add(222);
+
 //        Box<Integer> box1 = new Box(12);
 //       Box<Float> box2 = new Box(12.32);
   /*      List<Integer>integerList=new ArrayList<>();
