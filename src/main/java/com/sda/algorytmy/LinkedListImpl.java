@@ -20,11 +20,13 @@ public class LinkedListImpl<E> implements MyList <E> {
     public boolean add(E e) {
         if (size == 0){
             head = new Node(e);
+            size++;
         }
         else {
             Node tmp = head;
             head = new Node(e);
             head.next = tmp;
+            size++;
         }
         return false;
     }
