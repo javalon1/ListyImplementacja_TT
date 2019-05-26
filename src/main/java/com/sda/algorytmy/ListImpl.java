@@ -46,4 +46,9 @@ public class ListImpl<E> implements MyList<E> {
         DEFAULT_CAPACITY=this.DEFAULT_CAPACITY*2;
         elementData= Arrays.copyOf(elementData,DEFAULT_CAPACITY);
     }
+
+    @Override
+    public void printList() {
+
+    }
 }

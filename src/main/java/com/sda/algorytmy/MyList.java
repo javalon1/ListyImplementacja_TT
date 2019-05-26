@@ -5,4 +5,5 @@ public interface MyList<E> {
     boolean add(E e);
     boolean remove (int index);
     void ensureCapacity();
+    public void printList();
 }

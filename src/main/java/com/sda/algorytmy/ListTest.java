@@ -42,8 +42,9 @@ public class ListTest {
             list1.add(3);
             list1.add(4);
 
-        System.out.println(list1.toString());
+   //     System.out.println(list1.toString());
 
+            list1.printList();
         }
 
     }
